@@ -14,7 +14,7 @@ interface KanbanAreaProps {
   onEdit: (id: string, newText: string) => void
   onEditAnnotation: (id: string, newAnnotation: string) => void
   onReEnrich: (id: string, newCategory?: string) => void
-  onChangeType: (id: string, newType: import("@/lib/content-types").ContentType) => void
+  onChangeType: (id: string, newType: ContentType) => void
   onToggleCollapse: (id: string) => void
   onTogglePin: (id: string) => void
   onToggleSubTask: (id: string, subTaskId: string) => void
